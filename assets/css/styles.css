@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Atom - Responsive Website Template for Marketing Mobile Apps
  * Version: 1.5
  * Author: Xiaoying Riley at 3rd Wave Media
@@ -2591,5 +2591,27 @@ select {
     width: 278px;
     top: 54px;
     left: 40px;
+  }
+}
+/* Logo flashing*/
+.hoverlogo figure:hover img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
   }
 }
