@@ -813,7 +813,7 @@ select {
   -webkit-opacity: 1;
   -moz-opacity: 1;
   opacity: 1;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0.4);
 }
 .promo .download-area .summary {
   color: rgba(0, 0, 0, 0.4);
