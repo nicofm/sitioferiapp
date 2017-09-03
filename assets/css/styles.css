@@ -325,10 +325,10 @@ select {
   color: #fff;
 }
 .gradient-3 {
-  background-image: -webkit-linear-gradient(110deg, #38b6b8 10%, #d155ff 90%), url("../images/background/feriapp_wallpaper_1_4.png");
-  background-image: -moz-linear-gradient(110deg, #38b6b8 10%, #d155ff 90%), url("../images/background/feriapp_wallpaper_1_4.png");
-  background-image: -o-linear-gradient(110deg, #38b6b8 10%, #d155ff 90%), url("../images/background/feriapp_wallpaper_1_4.png");
-  background-image: linear-gradient(110deg, #38b6b8 10%, #d155ff 90%), url("../images/background/feriapp_wallpaper_1_4.png");
+  background-image: -webkit-linear-gradient(110deg, #38b6b8 10%, #d155ff 90%), url("../images/background/diamond_upholstery4b.png");
+  background-image: -moz-linear-gradient(110deg, #38b6b8 10%, #d155ff 90%), url("../images/background/diamond_upholstery4b.png");
+  background-image: -o-linear-gradient(110deg, #38b6b8 10%, #d155ff 90%), url("../images/background/diamond_upholstery4b.png");
+  background-image: linear-gradient(110deg, #38b6b8 10%, #d155ff 90%), url("../images/background/diamond_upholstery4b.png");
   background-image: -ms-linear-gradient(left, #38b6b8, #d155ff);
   /* IE 10+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#38b6b8, endColorstr=#d155ff, GradientType=1);
