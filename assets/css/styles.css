@@ -551,7 +551,6 @@ select {
   position: relative;
   left: 0;
   z-index: 20;
-  min-height: 100%;
 }
 /* ======= Header ======= */
 .header {
@@ -899,6 +898,8 @@ select {
   padding-bottom: 30px;
   background: #364b59;
   color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  width: 100%;
 }
 .footer a {
   color: rgba(255, 255, 255, 0.6);
@@ -2636,7 +2637,7 @@ select {
     display: block !important;
 }
 .video-container {
-    position: relative;
+    position: fixed;
     bottom: 0%;
     left: 0%;
     height: 100%;
@@ -2664,3 +2665,7 @@ select {
     width: 100%;
 }
 
+.bg-black {
+  color: #FFFFFF;
+  background: rgba(0, 0, 0, 0.2);
+}
